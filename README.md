@@ -1,19 +1,19 @@
 # Php-Option-Network
 
+Simple Web PHP
+
+Include
+
+Ping
+Tracert ----> traceroute max 30 saltos
+Check Port TCP -------> nmap check Port Only TCP
 
 
+Instalation
 
+sudo apt install Apache2
+sudo apt install php
+sudo apt install traceroute
+sudo apt install Nmap
 
-git clone https://Rembmax:maxia265656@github.com/Rembmax/Php-Option-Network.git
-
-
-
-Activate forwarding
-
-iptables -t nat -I PREROUTING -p tcp -d 192.168.1.7 --dport 80 -j DNAT --to-destination 192.168.122.2:80
-iptables -I FORWARD -m state -d 192.168.122.2/24 --state NEW,RELATED,ESTABLISHED -j ACCEPT
-
-Remove forwarding
-
-iptables -t nat -D PREROUTING -p tcp -d 192.168.1.7 --dport 80 -j DNAT --to-destination 192.168.122.2:80
-iptables -D FORWARD -m state -d 192.168.122.2/24 --state NEW,RELATED,ESTABLISHED -j ACCEPT
+Todos los protocolos estan en ipv4 en esta version / All protocols are in ipv4 in this version
