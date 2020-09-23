@@ -25,7 +25,7 @@ xlength="15" size="15" pattern="^((\d{1,2}|1\d\d|2[0-4]\d|25[0-5])\.){3}(\d{1,2}
 <select class="form-control text-center" id="sel1" name="protocol">
 <option value="none" selected>----</option>
 <option value="Ping">Ping</option>
-<option value="Nmap">Nmap</option>
+<option value="PortTCP">Check Port TCP</option>
 <option value"Tracert">Tracert</option>
 </select>
 </div>
@@ -44,7 +44,7 @@ switch ($Protocol) {
 case 'Ping':
         echo "<br><br><pre>".Ping($IP)."</pre>";
         break;
-    case 'Nmap':
+    case 'PortTCP':
         echo "<br><br><pre>".Nmap($IP)."</pre>";
         break;
     case 'Tracert':
