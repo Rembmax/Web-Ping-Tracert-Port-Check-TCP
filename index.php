@@ -6,7 +6,7 @@
 <div class="jumbotron text-center" style="margin-bottom:0">
 <h1>Php Option Network</h1>
 <br>
-<h5> Ping / Nmap / Tracert</h5>
+<h5> Ping / Port Check TCP / Tracert</h5>
 </div>
 <br>
 <br>
