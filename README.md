@@ -40,7 +40,7 @@ sudo apt install Nmap
 
 _Herramientas de desarrollo_
 
-* [Atom](https://atom.io/) - El framework web usado
+* [Atom](https://atom.io/) - Text Editor
 * [Apache](https://httpd.apache.org/) - Apache Server
 * [bootstrap 4](https://getbootstrap.com/) - Para que se vea bonito
 
