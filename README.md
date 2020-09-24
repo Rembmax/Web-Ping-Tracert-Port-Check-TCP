@@ -1,6 +1,6 @@
 # Php-Option-Network
 
-_Una Web simple en Html, Php, para hacer _
+_Una Web simple en Html, Php, para hacer_
 
 ## Comenzando 🚀
 
@@ -52,4 +52,4 @@ _Herramientas de desarrollo_
 
 ## Licencia 📄
 
-Este proyecto está bajo la Licencia (GNU GENERAL PUBLIC LICENSE Version 3) - mira el archivo [LICENSE.md](LICENSE.md) para detalles
+Este proyecto está bajo la Licencia (GNU GENERAL PUBLIC LICENSE Version 3) - mira el archivo [LICENSE.md](https://github.com/Rembmax/Web-Ping-Tracert-Port-Check-TCP/blob/master/LICENSE) para detalles
